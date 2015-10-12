@@ -1,7 +1,7 @@
 {
-  "name": "aspire-dashboard-api",
+  "name": "node-template",
   "version": "0.0.0",
-  "description": "API for Aspire Dashboard",
+  "description": "Node harmony project template",
   "directories": {
     "test": "test"
   },
@@ -22,7 +22,6 @@
     "postal": "^1.0.7",
     "randomstring": "^1.1.0",
     "redis": "^1.0.0",
-    "sequelize": "^3.8.0",
     "settings": "^0.1.1",
     "underscore.string": "^3.2.2",
     "winston": "^1.0.1"
@@ -31,7 +30,6 @@
     "start": "server.js"
   },
   "devDependencies": {
-    "coffee-script": "^1.10.0",
     "frisby": "^0.8.5"
   },
   "author": "Onebitmedia",
