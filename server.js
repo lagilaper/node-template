@@ -94,14 +94,14 @@ console.timeEnd("LoadLogic");
 });
 
 app.use(function(req, res, next) {
-  return res.sendStatus(404);
+    return res.sendStatus(404);
 });
 
 process.on('uncaughtException', function (err) {
-  return log.error("Caught exception: " + err);
+    return log.error("Caught exception: " + err);
 });
 
 app.listen(config.port.api);
 
 log.debug('Server started at port: ', config.port.api);
-    
+
